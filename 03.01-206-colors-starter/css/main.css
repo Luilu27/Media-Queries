@@ -43,6 +43,8 @@ header {
 
 #column-3 {
   background:blueviolet;
+  width:100;
+
 }
 
 
@@ -58,7 +60,7 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) 
   header {
     background-color:blue ;
   }
@@ -91,19 +93,27 @@ footer {
 
   #column-1 {
     background-color:magenta ;
+    width:33.3%;
   }
 
   #column-2 {
     background-color:pink ;
+    width:33.3%;
   }
 
   #column-3 {
     background-color: blue;
+    width:33.3%;
+
   }
+
+  
 
   footer {
   background: #e3e3e3;
  
   }
-   
-}
+  col-3 {
+    width: 33.3%;
+  }
+
